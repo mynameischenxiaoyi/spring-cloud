@@ -1,0 +1,16 @@
+package com.yichen.springcloudeurekaconsumer8011;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@ControllerAdvice
+public class ExceptHandler {
+
+    /*@ExceptionHandler(value = RuntimeException.class)
+    @ResponseBody
+    public Object dealExcept(){
+        return "出错了";
+    }*/
+
+}
